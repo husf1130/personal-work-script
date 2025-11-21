@@ -18,3 +18,6 @@
 0x00001a9580000000 - 0x00001b3fffffffff
 
 insmod obmm_allocator.ko memory=0x0000029580000000,384G,0x00000a9580000000,384G,0x0000129580000000,384G,0x00001a9580000000,384G granu=1G
+
+obmm编译代码
+https://gitee.com/aevdark/memfabric_hybrid/tree/br_A3_shm_bm_630_test/src/driver/kernel/obmm
