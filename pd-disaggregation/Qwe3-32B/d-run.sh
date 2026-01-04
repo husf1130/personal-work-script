@@ -14,9 +14,7 @@ python -m sglang.launch_server \
     --tp-size 2 \
     --base-gpu-id 4 \
     --mem-fraction-static 0.8 \
-    --attention-backend ascend \
     --device npu \
     --attention-backend ascend \
     --max-running-requests 8 --context-length 3800 --chunked-prefill-size 57344 \
     --disable-cuda-graph-graph \
-    --disable-rad
