@@ -14,7 +14,6 @@ python -m sglang.launch_server \
     --trust-remote-code \
     --tp-size 2 \
     --mem-fraction-static 0.8 \
-    --attention-backend ascend \
     --device npu \
     --attention-backend ascend \
     --max-running-requests 8 --context-length 3800 --chunked-prefill-size 57344 \
